@@ -10,11 +10,11 @@ function TodayTemperature({weather,temp,tempMin,tempMax}) {
             <PresentTemperatureAndWeather>
                 <Icon condition={weather}/>
                 <Weather>{weather}</Weather>
-                <PresentTemperature>{temp}&deg;</PresentTemperature>
+                <PresentTemperature>{temp}&deg;C</PresentTemperature>
             </PresentTemperatureAndWeather>
             <TodayHighAndLowTemperature>
-                <TodayLowTemperature>Low:{tempMin}&deg;</TodayLowTemperature>
-                <TodayHighTemperature>High:{tempMax}&deg;</TodayHighTemperature>
+                <TodayLowTemperature>Low:{tempMin}&deg;C</TodayLowTemperature>
+                <TodayHighTemperature>High:{tempMax}&deg;C</TodayHighTemperature>
             </TodayHighAndLowTemperature>
         </Container>
     )
